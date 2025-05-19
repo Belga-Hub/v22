@@ -558,7 +558,7 @@ document.addEventListener('supabase-ready', function() {
 
   // Badge de destaque se for featured
   const featuredBadge = partnership.featured 
-    ? '<div class="partnership-featured-badge">Destaque</div>' 
+    ? '<div class="partnership-featured-badge"></div>' 
     : '';
 
   // NOVA IMPLEMENTAÇÃO: Determinar nome da empresa baseado no login
